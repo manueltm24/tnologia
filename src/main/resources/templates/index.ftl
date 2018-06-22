@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Boooya - Revolution Admin Template</title>
+    <title>TNOLOGIA - Inicio</title>
 
     <!-- META SECTION -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -13,6 +13,9 @@
     <!-- END META SECTION -->
     <!-- CSS INCLUDE -->
     <link rel="stylesheet" href="booyaTemplate/css/landing.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
+
     <!-- EOF CSS INCLUDE -->
 </head>
 <body>
@@ -22,11 +25,14 @@
     <header id="header" style="background-image: url('booyaTemplate/assets/images/landing/header_background.jpg');">
         <div class="header">
             <div class="container">
-                <a href="#" class="logo"></a>
+                <a href="/" class="logo"></a>
+
+
                 <button class="navigation-toggle"><span class="icon-menu"></span></button>
                 <ul class="navigation hidden-mobile">
                     <li><a href="#header">Inicio</a></li>
-                    <li><a href="#pricing">Precios</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#">Precios</a></li>
                     <li><a href="#contact">Contáctanos</a></li>
                 </ul>
             </div>
@@ -34,15 +40,15 @@
 
         <div class="header-content">
             <div class="container text-center invert">
-                <h1><b>Tolstec</b> &mdash; Tolentino Solutions Tecnology</h1>
-                <div class="under-heading">La mejor solución para tu empresa.!</div>
+                <h1><b>TNOLOGÍA.</b> &mdash; </h1>
+                <div class="under-heading">Comprometidos a brindar la mejor solución para tu negocio..!</div>
 
                 <form action="http://localhost:4321/" method="get">
                     <button type="submit" class="btn btn-success btn-rounded">Iniciar sesión</button>
                 </form>
 
                 <div class="image-container">
-                    <img src="booyaTemplate/assets/images/landing/presentation.png" alt="Boooya - Revolution Admin Template">
+                    <img src="booyaTemplate/assets/images/landing/presentation_2.png" alt="Boooya - Revolution Admin Template">
                 </div>
             </div>
         </div>
@@ -50,84 +56,118 @@
 
     <section class="section invert section-condensed">
         <div class="container text-center">
-            <a href="index.html" class="btn btn-info btn-shadowed btn-lg  btn-icon-fixed margin-right-10"><span class="fa fa-newspaper-o"></span>Conócenos</a>
+            <a href="#" class="btn btn-info btn-shadowed btn-lg  btn-icon-fixed margin-right-10"><span class="fa fa-newspaper-o"></span>Conócenos</a>
             <a href="#" class="btn btn-danger btn-shadowed btn-lg btn-icon-fixed"><span class="icon-users"></span> Regístrate</a>
         </div>
     </section>
 
-    <section class="section" id="pricing">
+
+    <section class="section" id="productos">
         <div class="container">
 
             <div class="heading-wrapper text-center">
-                <div class="above-heading">Nuestras propuestas para ti!</div>
-                <h3 class="text-uppercase">Precios</h3>
-                <div class="under-heading">Sistema de facturación</div>
+                <#--<div style="font-family: Impact" class="above-heading">¿Cuáles son nuestros productos?</div>-->
+                <h3 class="text-uppercase" style="font-family: 'MS Gothic'"><b>¿Cuáles son nuestros productos?</b></h3>
+                <div class="under-heading">Aquí el listado de nuestros softwares.</div>
             </div>
 
-            <div class="row pricing-tables pricing-tables-condensed">
-                <div class="col-md-4">
-                    <div class="pricing-table">
-                        <div class="title">Gratis</div>
-                        <div class="price">RD$0.00</div>
-                        <div class="subtitle">por mes</div>
-                        <div class="divider"></div>
-                        <div class="features">
-                            <div class="line"><span class="fa fa-check"></span> 1 Usuario</div>
-                            <div class="line"><span class="fa fa-check"></span> 1 Empresa</div>
-                            <div class="line"><span class="fa fa-times"></span> <s>Backups y/o respaldos</s></div>
-                            <div class="line"><span class="fa fa-check"></span> 5 Facturas por mes</div>
-                            <div class="line"><span class="fa fa-times"></span> <s>Cuentas por cobrar</s></div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="feature text-center">
+                        <h6 class="text-uppercase text-bolder">PSOFT</h6>
+                        <div class="under-heading">Pymes Software</div>
+                        <p>Es un software modular diseñado para la gestión contable de una empresa dando un seguimiento a los controles e informaciones requeridos por la Dirección General de Impuestos Internos (DGII).</p>
+                        <button type="button" class="btn btn-default btn-rounded">Ver más</button>
 
-                        </div>
-                        <div class="divider"></div>
-                        <div class="button-holder">
-                            <button class="btn btn-info btn-shadowed">Sign Up</button>
-                        </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="pricing-table featured">
-                        <div class="title">Premium</div>
-                        <div class="price">RD$700.00</div>
-                        <div class="subtitle">por mes</div>
-                        <div class="divider"></div>
-                        <div class="features">
-                            <div class="line"><span class="fa fa-check"></span> 1 Usuario</div>
-                            <div class="line"><span class="fa fa-check"></span> 2 Empresas</div>
-                            <div class="line"><span class="fa fa-check"></span> Backups y/o respaldos</div>
-                            <div class="line"><span class="fa fa-check"></span> 150 Facturas por mes</div>
-                            <div class="line"><span class="fa fa-check"></span> Cuentas por cobrar </div>
-                        </div>
-                        <div class="divider"></div>
-                        <div class="button-holder">
-                            <button class="btn btn-danger btn-shadowed">Sign Up</button>
-                        </div>
+                <div class="col-md-6">
+                    <div class="feature text-center">
+                        <h6 class="text-uppercase text-bolder">GMD</h6>
+                        <div class="under-heading">Gestor médico diario</div>
+                        <p>GMS es un sistema para facilitar a los médicos la gestión y control de sus pacientes; cuenta con herramientas como control de pacientes, historia clínica, recetas, entre otros. </p>
+                        <button type="button" class="btn btn-warning     btn-rounded">¡PROXIMAMENTE!</button>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="pricing-table">
-                        <div class="title">Negocios</div>
-                        <div class="price">RD$1200.00</div>
-                        <div class="subtitle">por mes</div>
-                        <div class="divider"></div>
-                        <div class="features">
-                            <div class="line"><span class="fa fa-check"></span> 15 Usuario</div>
-                            <div class="line"><span class="fa fa-check"></span> Empresas Inlimitadas</div>
-                            <div class="line"><span class="fa fa-check"></span> Backups y/o respaldos</div>
-                            <div class="line"><span class="fa fa-check"></span>  Facturas inlimitadas por mes</div>
-                            <div class="line"><span class="fa fa-check"></span> Cuentas por cobrar </div>
-                        </div>
-                        <div class="divider"></div>
-                        <div class="button-holder">
-                            <button class="btn btn-info btn-shadowed">Sign Up</button>
-                        </div>
-                    </div>
-                </div>
-
             </div>
 
         </div>
     </section>
+
+
+    <#--<section class="section" id="pricing">-->
+        <#--<div class="container">-->
+
+            <#--<div class="heading-wrapper text-center">-->
+                <#--<div class="above-heading">Nuestras propuestas para ti!</div>-->
+                <#--<h3 class="text-uppercase">Precios</h3>-->
+                <#--<div class="under-heading">Sistema de facturación</div>-->
+            <#--</div>-->
+
+            <#--<div class="row pricing-tables pricing-tables-condensed">-->
+                <#--<div class="col-md-4">-->
+                    <#--<div class="pricing-table">-->
+                        <#--<div class="title">Gratis</div>-->
+                        <#--<div class="price">RD$0.00</div>-->
+                        <#--<div class="subtitle">por mes</div>-->
+                        <#--<div class="divider"></div>-->
+                        <#--<div class="features">-->
+                            <#--<div class="line"><span class="fa fa-check"></span> 1 Usuario</div>-->
+                            <#--<div class="line"><span class="fa fa-check"></span> 1 Empresa</div>-->
+                            <#--<div class="line"><span class="fa fa-times"></span> <s>Backups y/o respaldos</s></div>-->
+                            <#--<div class="line"><span class="fa fa-check"></span> 5 Facturas por mes</div>-->
+                            <#--<div class="line"><span class="fa fa-times"></span> <s>Cuentas por cobrar</s></div>-->
+
+                        <#--</div>-->
+                        <#--<div class="divider"></div>-->
+                        <#--<div class="button-holder">-->
+                            <#--<button class="btn btn-info btn-shadowed">Sign Up</button>-->
+                        <#--</div>-->
+                    <#--</div>-->
+                <#--</div>-->
+                <#--<div class="col-md-4">-->
+                    <#--<div class="pricing-table featured">-->
+                        <#--<div class="title">Premium</div>-->
+                        <#--<div class="price">RD$700.00</div>-->
+                        <#--<div class="subtitle">por mes</div>-->
+                        <#--<div class="divider"></div>-->
+                        <#--<div class="features">-->
+                            <#--<div class="line"><span class="fa fa-check"></span> 1 Usuario</div>-->
+                            <#--<div class="line"><span class="fa fa-check"></span> 2 Empresas</div>-->
+                            <#--<div class="line"><span class="fa fa-check"></span> Backups y/o respaldos</div>-->
+                            <#--<div class="line"><span class="fa fa-check"></span> 150 Facturas por mes</div>-->
+                            <#--<div class="line"><span class="fa fa-check"></span> Cuentas por cobrar </div>-->
+                        <#--</div>-->
+                        <#--<div class="divider"></div>-->
+                        <#--<div class="button-holder">-->
+                            <#--<button class="btn btn-danger btn-shadowed">Sign Up</button>-->
+                        <#--</div>-->
+                    <#--</div>-->
+                <#--</div>-->
+                <#--<div class="col-md-4">-->
+                    <#--<div class="pricing-table">-->
+                        <#--<div class="title">Negocios</div>-->
+                        <#--<div class="price">RD$1200.00</div>-->
+                        <#--<div class="subtitle">por mes</div>-->
+                        <#--<div class="divider"></div>-->
+                        <#--<div class="features">-->
+                            <#--<div class="line"><span class="fa fa-check"></span> 15 Usuario</div>-->
+                            <#--<div class="line"><span class="fa fa-check"></span> Empresas Inlimitadas</div>-->
+                            <#--<div class="line"><span class="fa fa-check"></span> Backups y/o respaldos</div>-->
+                            <#--<div class="line"><span class="fa fa-check"></span>  Facturas inlimitadas por mes</div>-->
+                            <#--<div class="line"><span class="fa fa-check"></span> Cuentas por cobrar </div>-->
+                        <#--</div>-->
+                        <#--<div class="divider"></div>-->
+                        <#--<div class="button-holder">-->
+                            <#--<button class="btn btn-info btn-shadowed">Sign Up</button>-->
+                        <#--</div>-->
+                    <#--</div>-->
+                <#--</div>-->
+
+            <#--</div>-->
+
+        <#--</div>-->
+    <#--</section>-->
 
     <section class="section section-highlight" id="contact">
         <div class="container">
@@ -185,71 +225,25 @@
         </div>
     </section>
 
-    <#--<!-- START APP FOOTER &ndash;&gt;-->
-    <#--<div class="app-footer app-footer-default" id="footer">-->
-        <#--<div class="container">-->
-            <#--<div class="app-footer-line extended">-->
-                <#--<div class="row">-->
-                    <#--<div class="col-md-3 col-sm-6">-->
-                        <#--<h3 class="title"><img src="booyaTemplate/img/logo-footer.png" alt="boooyah"> Boooya</h3>-->
-                        <#--<p>The innovation in admin template design. You will save hundred hours while working with our template. That is based on latest technologies and understandable for all.</p>-->
-                        <#--<p><strong>How?</strong><br>This template included with thousand of best components.</p>-->
-                    <#--</div>-->
-                    <#--<div class="col-md-3 col-sm-6">-->
-                        <#--<h3 class="title"><span class="icon-clipboard-text"></span> About Us</h3>-->
-                        <#--<ul class="list-unstyled">-->
-                            <#--<li><a href="#">About</a></li>-->
-                            <#--<li><a href="#">Team</a></li>-->
-                            <#--<li><a href="#">Why use us?</a></li>-->
-                            <#--<li><a href="#">Careers</a></li>-->
-                        <#--</ul>-->
-                    <#--</div>-->
-                    <#--<div class="col-md-3 col-sm-6">-->
-                        <#--<h3 class="title"><span class="icon-lifebuoy"></span> Need Help?</h3>-->
-                        <#--<ul class="list-unstyled">-->
-                            <#--<li><a href="#">FAQ</a></li>-->
-                            <#--<li><a href="#">Community</a></li>-->
-                            <#--<li><a href="#">Contacts</a></li>-->
-                            <#--<li><a href="#">Terms & Conditions</a></li>-->
-                        <#--</ul>-->
-                    <#--</div>-->
+    <!-- START APP FOOTER -->
+    <div class="app-footer app-footer-default" id="footer">
 
-                    <#--<div class="col-md-3 col-sm-6">-->
-                        <#--<h3 class="title"><span class="icon-thumbs-up"></span> Social Media</h3>-->
+        <div class="container container-boxed">
+            <div class="app-footer-line">
+                <div class="copyright">&copy; 2018 TNOLOGIA. Todos los derechos reservados.</div>
+                <div class="pull-right">
+                    <ul class="list-inline">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-                        <#--<a href="#" class="label-icon label-icon-footer label-icon-bordered label-icon-rounded label-icon-lg">-->
-                            <#--<i class="fa fa-facebook"></i>-->
-                        <#--</a>-->
-                        <#--<a href="#" class="label-icon label-icon-footer label-icon-bordered label-icon-rounded label-icon-lg">-->
-                            <#--<i class="fa fa-twitter"></i>-->
-                        <#--</a>-->
-                        <#--<a href="#" class="label-icon label-icon-footer label-icon-bordered label-icon-rounded label-icon-lg">-->
-                            <#--<i class="fa fa-youtube"></i>-->
-                        <#--</a>-->
-                        <#--<a href="#" class="label-icon label-icon-footer label-icon-bordered label-icon-rounded label-icon-lg">-->
-                            <#--<i class="fa fa-google-plus"></i>-->
-                        <#--</a>-->
-                        <#--<a href="#" class="label-icon label-icon-footer label-icon-bordered label-icon-rounded label-icon-lg">-->
-                            <#--<i class="fa fa-feed"></i>-->
-                        <#--</a>-->
-
-                        <#--<h3 class="title"><span class="icon-paper-plane"></span> Subscribe</h3>-->
-
-                        <#--<div class="input-group">-->
-                            <#--<input type="text" class="form-control" placeholder="E-mail...">-->
-                            <#--<div class="input-group-btn">-->
-                                <#--<button class="btn btn-primary">GO</button>-->
-                            <#--</div>-->
-                        <#--</div>-->
-                    <#--</div>-->
-                <#--</div>-->
-            <#--</div>-->
-        <#--</div>-->
-        <#--<div class="app-footer-line darken">-->
-            <#--<div class="copyright wide text-center">&copy; 2017 Boooya. All right reserved in the Ukraine and other countries.</div>-->
-        <#--</div>-->
-    <#--</div>-->
-    <#--<!-- END APP FOOTER &ndash;&gt;-->
+    </div>
+    <!-- END APP FOOTER -->
 
 </div>
 <!-- END APP WRAPPER -->
