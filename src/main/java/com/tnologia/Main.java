@@ -14,7 +14,7 @@ import static spark.Spark.*;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        System.out.println("Hello world!!");
 
         staticFileLocation("/public");
         port(1234);
